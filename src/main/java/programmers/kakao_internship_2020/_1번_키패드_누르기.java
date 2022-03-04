@@ -7,7 +7,7 @@ import java.util.List;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-public class 키패드_누르기 {
+public class _1번_키패드_누르기 {
     final String LEFT = "L";
     final String RIGHT = "R";
     final int[][] NUM_POS = {{3, 1}, {0, 0}, {0, 1}, {0, 2}, {1, 0}, {1, 1}, {1, 2}, {2, 0}, {2, 1}, {2, 2}};
