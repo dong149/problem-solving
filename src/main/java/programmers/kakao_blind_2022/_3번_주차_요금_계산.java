@@ -3,7 +3,7 @@ package programmers.kakao_blind_2022;
 import java.util.HashMap;
 import java.util.Map;
 
-public class 주차_요금_계산 {
+public class _3번_주차_요금_계산 {
 
     Map<String, Integer> recordMap = new HashMap<>();
     Map<String, Integer> feeMap = new HashMap<>();

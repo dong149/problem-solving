@@ -1,6 +1,6 @@
 package programmers.kakao_blind_2022;
 
-public class 양궁_대회 {
+public class _4번_양궁_대회 {
     final int LEN = 11;
     int maxScore = 0;
     int[] answer = new int[LEN];

@@ -7,7 +7,7 @@ import java.util.Arrays;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 // 다른 방식 풀이
-public class k진수에서_소수_개수_구하기_2 {
+public class _2번_k진수에서_소수_개수_구하기_2 {
     public int solution(int n, int k) {
         String s = Integer.toString(n, k);
         return (int) Arrays.stream(s.split("0"))

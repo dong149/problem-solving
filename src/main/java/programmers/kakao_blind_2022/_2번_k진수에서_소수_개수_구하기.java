@@ -1,6 +1,6 @@
 package programmers.kakao_blind_2022;
 
-public class k진수에서_소수_개수_구하기 {
+public class _2번_k진수에서_소수_개수_구하기 {
     public static void main(String[] args) {
         int n = 23;
         int k = 10;

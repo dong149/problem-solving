@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class 신고_결과_받기 {
+public class _1번_신고_결과_받기 {
     public int[] solution(String[] id_list, String[] report, int k) {
         Map<String, Set<String>> reportMap = new HashMap<>();
         Map<String, Integer> reportedCountMap = new HashMap<>();
