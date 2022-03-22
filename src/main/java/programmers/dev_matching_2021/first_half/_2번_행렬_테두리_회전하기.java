@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 
 import java.awt.*;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class _2번_행렬_테두리_회전하기 {
@@ -61,13 +60,6 @@ public class _2번_행렬_테두리_회전하기 {
         }
 
         return min;
-    }
-
-    private void printArr(int[][] board) {
-        for (int i = 0; i < board.length; i++) {
-            System.out.println(Arrays.toString(board[i]));
-        }
-        System.out.println();
     }
 
     @Test
