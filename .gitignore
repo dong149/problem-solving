@@ -1,3 +1,6 @@
+# Custom
+/src/main/java/programmers/line/
+
 # From https://github.com/github/gitignore/blob/master/Gradle.gitignore
 .gradle
 /build/
