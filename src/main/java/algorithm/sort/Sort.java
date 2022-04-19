@@ -3,7 +3,8 @@ package algorithm.sort;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
+import java.util.*;
+import java.util.stream.Collectors;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
@@ -155,5 +156,17 @@ public class Sort {
         arr[i] = pivot;
 
         return i;
+    }
+
+
+    @Test
+    void test() {
+        List<List<String>> list = Arrays.asList(
+                Arrays.asList("a"),
+                Arrays.asList("b"));
+
+        List<String> result = list.stream().flatMap(Collection::stream).collect(Collectors.toList());
+        System.out.println(list); // [[a],[b]]
+        System.out.println(result); // [a,b]
     }
 }
